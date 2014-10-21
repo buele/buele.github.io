@@ -158,4 +158,10 @@ body { font-family: "open", sans-serif }
   /*padding-top: 0;
   padding-bottom: 0;*/
 }
+body { font-size: 1.5em; }
+h1  { font-size: 2.5em; }
+h2  { font-size: 2.2em; }
+h3  { font-size: 2em; }
+h4  { font-size: 2em; }
+h5  { font-size: 1.7em; }
 
