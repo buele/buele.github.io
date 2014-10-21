@@ -94,3 +94,67 @@
 .project-title{
   margin-top:40px;
 }
+
+@font-face {
+  font-family: "open";
+  src: url(./fonts/opensanslight.ttf) format("truetype");
+}
+body { font-family: "open", sans-serif }
+
+.navbar-fixed-top {
+  background-color: white;
+}
+
+.view{
+  margin-top: 41px;
+}
+
+.link-box{
+  margin-top:50px;
+}
+
+/*   test animation */
+
+.view.ng-enter,
+.view.ng-leave,
+.view.ng-move {
+  -webkit-transition: 0.8s linear all;
+  -moz-transition: 0.8s linear all;
+  -o-transition: 0.8s linear all;
+  transition: 0.80s linear all;
+}
+
+.view.ng-enter,
+.view.ng-move {
+  opacity: 0;
+  /*height: 0;*/
+  /*display: none;*/
+  top:-100%;
+  overflow: hidden;
+}
+
+.view.ng-move.ng-move-active,
+.view.ng-enter.ng-enter-active {
+  opacity: 1;
+  display: block;
+  top:0%;
+  /*height: 100%;*/
+
+}
+
+.view.ng-leave {
+  opacity: 0;
+  /*display: block;*/
+  top:-100%;
+  overflow: hidden;
+}
+
+.view.ng-leave.ng-leave-active {
+  opacity: 0;
+  /*height: 0;*/
+  display: none;
+  /*top:-100%;*/
+  /*padding-top: 0;
+  padding-bottom: 0;*/
+}
+

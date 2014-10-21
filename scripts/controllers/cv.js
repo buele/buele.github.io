@@ -16,7 +16,7 @@ angular.module('bueleApp')
   	{ 
 			title:"Freelancer Software developer",
 			company: "Raffaele Bua",
-			time: " February 2013 – Present (1 year 6 months) Sardinia ",
+			time: " February 2013 – Present (1 year 6 months) Italy / Austria ",
 			skills:["Design and Develop Mobile and web applications","Objective-C, iOS","C/C++","Client-Server web SPA applications (Javascript, MYSQL, PHP)"]
 
 		},

@@ -19,7 +19,7 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
+      .when('/home', {
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
@@ -32,6 +32,10 @@ angular
         controller: 'PortfolioCtrl'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/home'
       });
-  });
+  }).controller('AppCtrl',[ '$scope', '$location', function ($scope,$location){
+    $scope.isActive = function (route) {
+        return (route == $location.path().split('/')[1] ) ? 'active' : '';
+    };
+  }]);
