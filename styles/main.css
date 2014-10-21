@@ -98,6 +98,7 @@
 @font-face {
   font-family: "open";
   src: url(./fonts/opensanslight.ttf) format("truetype");
+  /*src: url(./fonts/fire2.otf) format("truetype");*/
 }
 body { font-family: "open", sans-serif }
 
