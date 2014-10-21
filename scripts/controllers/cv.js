@@ -49,7 +49,7 @@ angular.module('bueleApp')
 			time: "2004 – 2010 (6 years) Pisa"
 		},
 		{
-			title: "Thesis - MULTITHREADED ENVIRONMENT CODE PARALLELISATION FOR ELECTRO-MAGNETIC FIELDS CALCULATION",
+			title: "Thesis - Multithreaded environment code parallelisation for electro-magnetic fields calculation",
 			company: "University of Pisa",
 			skills:["C", "POSIX", "Multithreading Programming"]
 		}
