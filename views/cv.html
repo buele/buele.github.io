@@ -10,7 +10,7 @@
 
           </div>
           <a  href="http://buele.github.io/RAFFAELE_BUA_CV.pdf" class="btn btn-default ">Download pdf</a>
-			<div ng-repeat="experience in experiences">
+			<div class="experence-box" ng-repeat="experience in experiences">
 				<h4>{{experience.title}}</h4>
 				<p>{{experience.company}}<br/>{{experience.time}}</p>
 				<ul ng-repeat="skill in experience.skills">

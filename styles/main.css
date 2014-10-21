@@ -154,14 +154,32 @@ body { font-family: "open", sans-serif }
   opacity: 0;
   /*height: 0;*/
   display: none;
-  /*top:-100%;*/
+  /*top:-100%;*/;
   /*padding-top: 0;
   padding-bottom: 0;*/
 }
+#home{
+  margin-top: 100px;
+}
+
+.experence-box{
+  margin-top: 55px;
+}
+
+.project-box{
+  margin-top: 55px;
+}
+
+.project-responsibilities{
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
 body { font-size: 1.8em; }
-h1  { font-size: 2.5em; }
-h2  { font-size: 2.2em; }
-h3  { font-size: 2em; }
+h1  { font-size: 2.8em; }
+h2  { font-size: 2.5em; }
+h3  { font-size: 2.3em; }
 h4  { font-size: 2em; }
-h5  { font-size: 2em; }
+h5  { font-size: 1.8em; }
+h6  { font-size: 1.5em; }
 
