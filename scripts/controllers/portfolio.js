@@ -14,6 +14,13 @@ angular.module('bueleApp')
   $scope.projects =
   [
   	{ 
+			title:" Sardegna Clima ",
+			type: "Web Backend and Mobile app",
+			link:"https://github.com/buele/SardegnaClima",
+			responsibilities:["Desing UX", "Design DB", "Backend development", "Web app development", "Mobile development"]
+
+		},
+		{ 
 			title:" Book Explorer (Open source iOS App) ",
 			type: "iOS App",
 			link:"http://buele.github.io/BookExplorer/",

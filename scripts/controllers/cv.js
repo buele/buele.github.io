@@ -17,31 +17,27 @@ angular.module('bueleApp')
 			title:"Freelancer Software developer",
 			company: "Raffaele Bua",
 			time: " February 2013 – Present  Italy ",
-			skills:["Design and Develop Mobile and web applications","Objective-C, iOS","C/C++","Client-Server web SPA applications (Javascript, MYSQL, PHP)"]
+			skills:["Full-stack web developer & Software Analyst",
+			"Backend Rest-ful developer: PHP, SQL, Doctrine, Slim, Node, Express",
+			"Client web developer: MVC AngularJS, EmberJS, jQuery, Html5"]
 
 		},
 		{ 
 			title:"Software developer",
 			company: "DI-SIDE",
 			time: "November 2012 – February 2013 (4 months) Sestu",
-			skills:["Symfony 2", "SCRUM", "TDD"]
+			skills:["Full-stack web developer (Symfony 2) in Scrum environment"]
 		},{
 
 			title: "Software Developer",
 			company: "modomodo",
 			time: "January 2012 – October 2012 (10 months) Milan Area, Italy",
-			skills: ["C#","MySQL","Objective-C, iOS", "Java"]
+			skills: ["Software developer in agile environment (C#, MYSQL, Javascript, Java)"]
 		},{
-			title:"iOS Developer",
-			company:"BlackSheepLab",
+			title:"Software Developer",
+			company:"Handcrafted software srl / BlackSheepLab",
 			time: "April 2011 – November 2011 (8 months) Venice Area, Italy",
-			skills: ["Objective-C, iOS","Java"]
-		},
-		{
-			title: "iOS Developer",
-			company: "Handcrafted software srl",
-			time: "March 2011 – April 2011 (2 months) Navacchio",
-			skills: ["Objective-C", "iOS", "C"]
+			skills: ["iOS Developer: Objective-C, C/C ", "Backend Java Developer: Java Servlets, Tomcat, MYSQL"]
 		},
 		{
 			title:"Bachelor’s degree in Computer science engineering (Final mark: 109/110)",
