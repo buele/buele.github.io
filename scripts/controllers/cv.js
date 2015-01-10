@@ -14,7 +14,7 @@ angular.module('bueleApp')
   $scope.experiences =
   [
   	{ 
-			title:"Software Engineer",
+			title:"Software Developer",
 			company: "Serco S.P.A.",
 			time: " December 2014 – Present  Italy ",
 			skills:["Java EE",
