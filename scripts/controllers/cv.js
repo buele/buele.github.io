@@ -14,9 +14,17 @@ angular.module('bueleApp')
   $scope.experiences =
   [
   	{ 
+			title:"Software Engineer",
+			company: "Serco S.P.A.",
+			time: " December 2014 – Present  Italy ",
+			skills:["Java EE",
+			"Reverse Engineering"]
+
+		},
+  	{ 
 			title:"Freelancer Software developer",
 			company: "Raffaele Bua",
-			time: " February 2013 – Present  Italy ",
+			time: " February 2013 – December 2014  Italy ",
 			skills:["Full-stack web developer & Software Analyst",
 			"Backend Rest-ful developer: PHP, SQL, Doctrine, Slim, Node, Express",
 			"Client web developer: MVC AngularJS, EmberJS, jQuery, Html5"]
