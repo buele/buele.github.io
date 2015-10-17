@@ -14,33 +14,31 @@ angular.module('bueleApp')
   $scope.experiences =
   [
   	{ 
-			title:"Software Developer",
+			title:"Coder",
 			company: "Serco S.P.A.",
 			time: " December 2014 – Present  Italy ",
-			skills:["Java EE",
-			"Reverse Engineering"]
+			skills:["Dissemination system software development for European Space Agency","Java, Spring, OWL, TestNG","Javascript (OOP), AngularJS, Polymer 1.0, HTML5, CSS3, LESS, bower/npm, Web component tester"]
 
 		},
   	{ 
-			title:"Freelancer Software developer",
+			title:"Freelancer Coder",
 			company: "Raffaele Bua",
 			time: " February 2013 – December 2014  Italy ",
-			skills:["Full-stack web developer & Software Analyst",
-			"Backend Rest-ful developer: PHP, SQL, Doctrine, Slim, Node, Express",
+			skills:["Backend Rest-ful developer: PHP, SQL, Doctrine, Slim, Node, Express",
 			"Client web developer: MVC AngularJS, EmberJS, jQuery, Html5"]
 
 		},
 		{ 
-			title:"Software developer",
+			title:"Full-stack web developer",
 			company: "DI-SIDE",
 			time: "November 2012 – February 2013 (4 months) Sestu",
 			skills:["Full-stack web developer (Symfony 2) in Scrum environment"]
 		},{
 
-			title: "Software Developer",
+			title: "Front end software Developer",
 			company: "modomodo",
 			time: "January 2012 – October 2012 (10 months) Milan Area, Italy",
-			skills: ["Software developer in agile environment (C#, MYSQL, Javascript, Java)"]
+			skills: ["Front end web software developer"]
 		},{
 			title:"Software Developer",
 			company:"Handcrafted software srl / BlackSheepLab",

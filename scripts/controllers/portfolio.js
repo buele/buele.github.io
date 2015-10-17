@@ -13,10 +13,32 @@ angular.module('bueleApp')
 	$anchorScroll();
   $scope.projects =
   [
+
+  	{ 
+			title:"ESA Sentinels Scientific Data Hub GUI",
+			type: "Single Page web application",
+			link:"http://goo.gl/74J0lg",
+			responsibilities:["UX", "Javascript", "CSS3", "AngularJS", "Java", "RESTFul"]
+
+		},
+		{ 
+			title:"Sentinel Data Hub addon for sentinel-2 products ingestion",
+			type: "Addon of Sentinel Data Hub (ESA)",
+			link:"https://goo.gl/mGUKDa",
+			responsibilities:["Java", "XQuery","OWL"]
+
+		},
+  	{ 
+			title:"eMailChef",
+			type: "Single Page web application",
+			link:"http://emailchef.com/",
+			responsibilities:["Desing UX", "Design DB", "AngularJS", "PHP", "RESTFul", "MYSQL"]
+
+		},
   	{ 
 			title:" Sardegna Clima ",
 			type: "Web Backend and Mobile app",
-			link:"https://github.com/buele/SardegnaClima",
+			link:"https://goo.gl/DPTLCu ",
 			responsibilities:["Desing UX", "Design DB", "Backend development", "Web app development", "Mobile development"]
 
 		},
