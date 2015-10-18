@@ -1,0 +1,139 @@
+<!--
+@license
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Raffaele Bua
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+
+
+<!--
+An element to use as template for new elements.
+Example: <template-element></template-element>
+@group Template Elements
+@element template-element
+@demo demo/index.html
+-->
+<dom-module id="template-component">
+  
+  <template>
+    <style>
+      :host {
+        font-family: 'Roboto', 'Noto', sans-serif;
+        @apply(--layout-fit);
+        @apply(--layout);
+        @apply(--layout-vertical);
+        overflow: hidden;
+        background: var(--paper-grey-50);
+      }
+    </style>
+    <h1>Hello World</h1>
+  </template>
+</dom-module>
+
+<script>
+(function() {
+  Polymer({
+    is: 'template-component',
+    properties: {
+      /**
+       * Property description
+       *
+       * `awesome-sauce/index.html`:
+       *
+       *     <iron-doc-viewer></iron-doc-viewer>
+       *
+       * Would implicitly have `src="awesome-sauce.html"`.
+       * @type {{name: string, image: string}}
+       */
+      propertyExample: {
+        type:     String,
+        value: function(){
+          return '';
+        },
+        observer: '_propertyChanged',
+        notify: true
+      },
+      /**
+       * Another property description
+       *
+       * `awesome-sauce/index.html`:
+       *
+       *     <iron-doc-viewer></iron-doc-viewer>
+       *
+       * Would implicitly have `src="awesome-sauce.html"`.
+       * @type {{name: string, image: string}}
+       */
+      propertyExample2: {
+        type:     String,
+        value: function(){
+          return '';
+        },
+        observer: '_propertyChanged',
+        notify: true
+      }
+    },
+    observers: [
+      
+    ],
+
+
+    ready: function() {
+    },
+
+    /**
+     * Private method descriptor.
+     *
+     * @return {Array<hydrolysis.ElementDescriptor>} The descriptors, or `null`.
+     */
+    _privateMethod: function() {
+      // ...
+    },
+
+    /**
+     * The `seed-element-lasers` event is fired whenever `fireLasers` is called.
+     *
+     * @event seed-element-lasers
+     * @detail {{sound: String}}
+     */
+    /**
+     * Sometimes it's just nice to say hi.
+     *
+     * @param {string} greeting A positive greeting.
+     * @return {string} The full greeting.
+     */
+    _propertyChanged:function(){
+
+    },
+
+    /**
+     * Public method description.
+     *
+     * @return {string} The HTML for this element with all state baked in.
+     */
+    publicMethod: function() {
+      // ...
+    }
+  });
+})();
+</script>

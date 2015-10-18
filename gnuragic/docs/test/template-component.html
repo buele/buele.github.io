@@ -1,0 +1,37 @@
+<!doctype html>
+<!--
+License here.
+-->
+<html>
+<head>
+  <title>iron-component-page</title>
+
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+  <script src="../../web-component-tester/browser.js"></script>
+  <script src="../../test-fixture/test-fixture-mocha.js"></script>
+
+  <link rel="import" href="../../polymer/polymer.html">
+  <link rel="import" href="../../test-fixture/test-fixture.html">
+  <link rel="import" href="../template-component.html">
+</head>
+<body>
+
+  <test-fixture id="basic">
+    <template>
+      <iron-component-page src="test-element.html"></iron-component-page>
+    </template>
+  </test-fixture>
+
+  <script>
+    suite('active-state', function() {
+      // your test here
+      var testElement;
+
+      setup(function() {
+        testElement = fixture('basic');
+      });
+
+    });
+  </script>
+</body>
+</html>
