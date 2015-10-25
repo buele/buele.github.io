@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[OpenGL] Hello World OpenGL on MAC (1)"
-date:   2014-05-04 16:32:42
+date:   2015-10-25 16:32:42
 categories: cuda
 ---
 
@@ -147,4 +147,4 @@ target_link_libraries(opengl_template ${OPENGL_LIBRARIES} ${GLUT_LIBRARY} )
 
 Demo:  
 
-![image](images/opengl.gif)
+![image](http://buele.github.io/images/opengl.gif)
