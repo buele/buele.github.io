@@ -123,8 +123,9 @@ int main(int argc, char** argv)
 
 {% endhighlight %} 
 
-The CMakeLists.txt:  
-{% highlight %}
+The CMakeLists.txt: 
+
+{% highlight cmake %}
 cmake_minimum_required(VERSION 3.3)
 project(opengl_template)
 find_package(OpenGL REQUIRED)
@@ -140,4 +141,10 @@ add_executable(opengl_template ${SOURCE_FILES})
 include_directories( ${OPENGL_INCLUDE_DIRS}  ${GLUT_INCLUDE_DIRS} )
 
 target_link_libraries(opengl_template ${OPENGL_LIBRARIES} ${GLUT_LIBRARY} )
+
 {% endhighlight %}  
+
+
+Demo:  
+
+![image](images/opengl.gif)
