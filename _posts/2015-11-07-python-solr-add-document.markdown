@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[python] Add document to solr silly script"
+title:  "[python] Add document to solr (silly script)"
 date:   2015-11-07 17:32:42
 categories: python
 ---
