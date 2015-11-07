@@ -18,7 +18,7 @@ categories: solr
   
 #### Add a document (http request)  
    
-{% highlight %} 
+{% highlight bash %} 
 POST http://localhost:8983/solr/core/update?wt=json
 Content-Type: application/json
 Content:
