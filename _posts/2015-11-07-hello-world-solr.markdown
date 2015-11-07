@@ -17,8 +17,8 @@ categories: solr
  - Create a core with name *core*: ``` $ bin/solr create -c core ```
   
 #### Add a document (http request)  
- 
-{% highlight %}
+   
+{% highlight %} 
 POST http://localhost:8983/solr/core/update?wt=json
 Content-Type: application/json
 Content:
