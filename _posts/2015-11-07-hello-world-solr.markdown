@@ -16,7 +16,8 @@ categories: solr
 #### Create core 
  - Create a core with name *core*: ``` $ bin/solr create -c core ```
 
-#### Add a document (http request)
+#### Add a document (http request) 
+
 ```
 POST http://localhost:8983/solr/core/update?wt=json
 Content-Type: application/json
@@ -24,7 +25,9 @@ Content:
 
 {'add': {'doc': {'id': 'test_id', 'title': 'test title'}, 'boost': 1, 'overwrite': true, 'commitWithin': 1000}}
 ```
-#### Search a document (http request)
-```
+
+#### Search a document (http request) 
+
+``` 
 GET http://localhost:8983/solr/core/select?wt=json&indent=true&q=title
-```
+``` 
