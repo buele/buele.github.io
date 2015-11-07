@@ -6,18 +6,18 @@ categories: python
 ---
 
 
-#### Introduction   
+####Introduction   
 
 Django Rest Framework example, without custom code.   
 
-#### Requirements    
+####Requirements    
 
  - virtualenv   
  - python 3.x   
  - pip 6.x   
 
  
-#### Setup and run the server   
+####Setup and run the server   
  
 
 {% highlight bash %} 
@@ -33,6 +33,7 @@ $ python manage.py runserver
 {% endhighlight %} 
 
 
-#### Github repository  
+####Github repository  
+
 [link](https://github.com/buele/djangorest)
 
