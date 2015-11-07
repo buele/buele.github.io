@@ -5,7 +5,7 @@ date:   2015-11-07 16:32:42
 categories: solr
 ---
 
-### Install solr 
+#### Install solr 
  1. Download: [mirrors](http://www.apache.org/dyn/closer.lua/lucene/solr/5.3.1)
  - Unpack ``` $ tar zxf solr-5.x.x.tgz ```
  
