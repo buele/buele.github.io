@@ -32,4 +32,5 @@ $ python manage.py runserver
 
 
 #### Github repository
-[link](https://github.com/buele/djangorest)
+[link](https://github.com/buele/djangorest).
+
