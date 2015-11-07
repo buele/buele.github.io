@@ -4,17 +4,6 @@ title:  "[python] Django Rest Framework seed"
 date:   2015-11-07 17:45:42
 categories: python
 ---
-
-Introduction   
-
-Django Rest Framework example, without custom code.   
-
-Requirements    
-
- - virtualenv   
- - python 3.x   
- - pip 6.x   
-
  
 Setup and run the server   
  
@@ -32,9 +21,6 @@ $ python manage.py createsuperuser
 $ python manage.py runserver
 
 {% endhighlight %} 
-
-
-Github repository  
 
 [link](https://github.com/buele/djangorest)
 
