@@ -22,5 +22,5 @@ $ python manage.py runserver
 
 {% endhighlight %} 
 
-[link](https://github.com/buele/djangorest)
+https://github.com/buele/djangorest
 
