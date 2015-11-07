@@ -18,12 +18,12 @@ categories: solr
   
 #### Add a document (http request)  
  
-```
+{% highlight %}
 POST http://localhost:8983/solr/core/update?wt=json
 Content-Type: application/json
 Content:
 {'add': {'doc': {'id': 'test_id', 'title': 'test title'}, 'boost': 1, 'overwrite': true, 'commitWithin': 1000}}
-``` 
+{% endhighlight %}
 
 #### Search a document (http request) 
 
