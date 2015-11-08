@@ -88,6 +88,6 @@ $ python3 dynamic-library-call.py
 6
 {% endhighlight %}
 
-#### Source code (Github)
+### Source code (Github)
 [repository](https://github.com/buele/python-cpp-dynamic-library)
 
