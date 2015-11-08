@@ -5,14 +5,14 @@ date:   2015-11-08 01:10:42
 categories: python,c++
 ---
 
-#### Goal
+### Goal
 To call c++ shared library method by python
 
-#### Requirements
+### Requirements
  - g++ 4.2.1
  - python 3.x
  
-#### C++ Sample Class
+### C++ Sample Class
 
 **SampleClass.h**
 
@@ -36,11 +36,9 @@ public:
 {% highlight c++ %} 
 #include "SampleClass.h"
 
-
 SampleClass::SampleClass()
 {
 }
-
 
 int SampleClass::sum(int a, int b)
 { 
@@ -48,7 +46,24 @@ int SampleClass::sum(int a, int b)
 }
 {% endhighlight %}
 
-#### Python script
+### Library interface (lib_interface.cc)
+
+
+
+{% highlight c++ %} 
+#include "SampleClass.h"
+
+extern "C" int sum(int a, int b)
+{
+  SampleClass * sampleClass = new SampleClass();
+  int result = sampleClass->sum(a,b);
+  delete sampleClass;
+  return result;
+
+}
+{% endhighlight %}
+
+### Python script
 
 {% highlight python %} 
 from ctypes import *
@@ -57,18 +72,18 @@ libc = CDLL("mylib.so")
 print(libc.sum(3,3))
 {% endhighlight %}
 
-#### Compile shared library (os X)
+### Compile shared library (os X)
 {% highlight bash %} 
 $ g++ -dynamiclib -flat_namespace *.cc -o mylib.so
 {% endhighlight %}
 
 
-#### Run python script to call shared library method
+### Run python script to call shared library method
 {% highlight bash %} 
 $ python3 dynamic-library-call.py
 {% endhighlight %}
 
-#### Output
+### Output
 {% highlight bash %} 
 6
 {% endhighlight %}
