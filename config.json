@@ -1,0 +1,29 @@
+  {
+    "title": "Starter kit",
+    "sections": [
+            {
+                "title": "Home",
+                "component": "layout-demo-component-1",
+                "route": "home",
+                "icon": "home"
+            },
+            {
+                "title": "Search",
+                "component": "layout-demo-component-2",
+                "route": "search",
+                "icon": "search"
+            },
+            {
+                "title": "About",
+                "component": "layout-demo-component-3",
+                "route": "about",
+                "icon": "info"
+            },
+            {
+                "title": "Pluto",
+                "component": "layout-demo-component-1",
+                "route": "pluto",
+                "icon": "info"
+            }
+            ]
+  }
