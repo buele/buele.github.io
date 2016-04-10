@@ -17,4 +17,4 @@ permalink: /about/
 
 
 
-[cv](buele.github.io/RAFFAELE_BUA_CV.pdf) - [portfolio](buele.github.io/RAFFAELE_BUA_PORTFOLIO.pdf) 
+[cv](http://buele.github.io/RAFFAELE_BUA_CV.pdf) - [portfolio](http://buele.github.io/RAFFAELE_BUA_PORTFOLIO.pdf) 
