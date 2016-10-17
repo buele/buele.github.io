@@ -50,3 +50,9 @@ cd /usr/local/lib/
 {% highlight bash %}
 cd /usr/local/include/
 {% endhighlight %}
+
+
+### Compile your code using gdal 20.1.1
+{% highlight bash %}
+g++  -I/usr/local/include /usr/lib/libgdal.so.20.1.1 main.cpp
+{% endhighlight %}
