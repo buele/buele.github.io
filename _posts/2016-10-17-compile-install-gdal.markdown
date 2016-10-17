@@ -12,6 +12,7 @@ Compile and install gdal library on debian linux
  - g++ 4.9.2
  - wget 1.16
  - make 4.0
+ - unzip 6.0
 
 
 ### Download gdal library source code
