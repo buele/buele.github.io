@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[remote sensing/C++] Compile and install gdal"
+title:  "[remote sensing/c++] Compile and install gdal"
 date:   2016-10-17 01:10:42
 categories: c++
 ---
