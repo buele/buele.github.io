@@ -19,13 +19,14 @@
 
     &,
     &:visited {
-        
+
     }
 }
 
 .site-nav {
     float: right;
     line-height: 56px;
+    padding-right: 5px;
 
     .menu-icon {
         display: none;
@@ -179,10 +180,10 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+    // font-size: $small-font-size;
+    // color: $grey-color;
     display: inline-block;
-    margin-left: 5px;
+    // margin-left: 5px;
 }
 
 .post-link {
@@ -200,12 +201,11 @@
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+  font-size: 2em;
+  font-weight: bold;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+
     }
 }
 
