@@ -6,8 +6,8 @@ permalink: /about/
 
 I am Raffaele Bua.
 
-I am a software developer with a passion of simple solutions for hard problems.
-I love Open Source  and clean design and code.
+I am a software developer with a passion of simple solutions to hard problems.
+I love Open Source movement and clean code.
 
 Looking for something of new to learn, every day.
 
